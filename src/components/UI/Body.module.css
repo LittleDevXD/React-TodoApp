@@ -1,0 +1,38 @@
+.black {
+    position: absolute;
+    background-color: #343434;
+    width: 100vw;
+    height: 40vh;
+    z-index: -1;
+}
+
+.white {
+    position: absolute;
+    top: 40vh;
+    background-color: #E5E5E5;
+    width: 100vw;
+    min-height: 60vh;
+    height: 100%;
+    z-index: -1;
+}
+
+.top-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.todo-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
